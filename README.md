@@ -1,6 +1,8 @@
 # TimeTravelApp
 
-## Angular
-## Angular Material
-## Rxjs
-## Firebase
+## Made with:
+
+### Angular
+### Angular Material
+### Rxjs
+### Firebase
