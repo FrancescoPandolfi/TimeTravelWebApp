@@ -5,7 +5,7 @@ const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: 'home' // navigate to home if there was NO route eg www.my-org.com
+    redirectTo: 'home' // navigate to home if there was NO route
   },
   {
     path: 'home',
@@ -16,7 +16,7 @@ const routes: Routes = [
     loadChildren: () => import('./features/admin/admin.module').then(m => m.AdminModule)
   },
   {
-    path: '**', // catch all route
+    path: '**', // catch all routes
     redirectTo: 'home' // can redirect home or to dedicated "not found" route
   }
 ];
