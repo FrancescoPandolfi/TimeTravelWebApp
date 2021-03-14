@@ -1,6 +1,6 @@
 # TimeTravelApp
 
-Angular
-Angular Material
-Rxjs
-Firebase
+## Angular
+## Angular Material
+## Rxjs
+## Firebase
